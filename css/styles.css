@@ -81,7 +81,7 @@ h3 {
 
 }
 .container-fluid {
-  padding: 3% 15%;
+  padding: 3% 15% 7%;
 }
 
 .navbar-brand {
@@ -118,6 +118,7 @@ position:relative;
   transform: rotate(20deg);
   position:absolute;
   z-index: 0;
+  right: 30%;
 }
 
 #pricing {
@@ -132,4 +133,45 @@ position:relative;
 }
 .card {
     margin: 10px 0;
+}
+
+#cta {
+  text-align: center;
+  background-color: #ff4c68;
+  padding-bottom: 5%;
+}
+
+.cta-header {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: white;
+  padding: 5% 10% 0;
+}
+
+#footer {
+  text-align: center;
+  padding: 8% 0;
+  background-color: #fff;
+
+}
+
+.footer-icon {
+  margin: 0 10px 20px;
+}
+
+.footer-par {
+    color: gray;
+}
+
+@media (max-width: 1028px) {
+#title {
+  text-align:center;
+}
+
+  .title-image {
+    position:static;
+    transform: none;
+  }
 }
